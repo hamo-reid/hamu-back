@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hamu-back"
+version = "0.1.0"
+description = "Backend of hamu"
+authors = ["hamo-reid <190395489@qq.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "hamu_back"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.98.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
